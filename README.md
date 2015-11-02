@@ -23,6 +23,9 @@
 
 #### Baisc Code Breakdown
 
+```JQuery for Google Maps API to make background for website
+$body.append( Google Image web address);
+
 ```JSON for NYT
  $.getJSON(NYTUrl, function(data) {
  	 //makes API and returns information
