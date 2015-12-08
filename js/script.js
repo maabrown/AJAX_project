@@ -19,7 +19,7 @@ function loadData() {
     var address = streetStr + ', ' + cityStr;
 
     $greeting.text('So, you want to live at ' + address + '?');
-
+    $greeting.css('color', '#a36c32');
 
     // load streetview
     var streetviewUrl = 'http://maps.googleapis.com/maps/api/streetview?size=600x400&location=' + address + '';

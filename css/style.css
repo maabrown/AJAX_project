@@ -1,4 +1,4 @@
-* {box-sizing:border-box;}
+* {box-sizing:border-box; font-family: Georgia;}
 body {background-color: #CCC;}
 
 .bgimg {
@@ -26,7 +26,7 @@ body {background-color: #CCC;}
 
 .nytimes-container {
     padding: 10px;
-    margin-right:300px;
+    margin-right:366px;
     background-color: rgba(255,255,255,0.7);
 }
 
@@ -42,4 +42,20 @@ body {background-color: #CCC;}
 }
 .article:first-child {
     border-top:none;
+}
+
+.form-container {
+    margin: 10px auto;
+    text-align: center;
+}
+
+#headerBox {
+    display: inline-block;
+    padding: 1%;
+    background: rgba(255,255,255,0.5);
+}
+
+#headerContainer {
+    opacity: 1;
+    text-align: center;
 }
